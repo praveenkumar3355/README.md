@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Praveen Kumar — Portfolio</title>
+  <style>
+    :root{--accent:#7c3aed}
+    body{font-family:Inter,system-ui,Arial,Helvetica,sans-serif;line-height:1.5;margin:0;color:#0f172a;background:#f8fafc}
+    header{background:linear-gradient(90deg,var(--accent),#ec4899);color:white;padding:3rem 1.5rem;text-align:center}
+    main{max-width:900px;margin:2rem auto;padding:0 1rem}
+    .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+    .card{background:white;padding:1rem;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+    a{color:var(--accent);text-decoration:none}
+    footer{text-align:center;padding:2rem 1rem;color:#64748b}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="margin:0;font-size:2rem">Praveen Kumar</h1>
+    <p style="margin:.5rem 0 0">Frontend developer • JavaScript • React • Data visualization</p>
+  </header>
+
+  <main>
+    <section class="card" aria-labelledby="about">
+      <h2 id="about">About</h2>
+      <p>Hi — I'm Praveen. I build responsive web apps using modern JavaScript. This portfolio links to projects that demonstrate UI, data visualization, and full-stack readiness.</p>
+    </section>
+
+    <section class="card" aria-labelledby="projects" style="margin-top:1rem">
+      <h2 id="projects">Selected Projects</h2>
+      <div class="grid" style="margin-top:.5rem">
+        <div>
+          <h3>shopmedia1</h3>
+          <p>Shop & media demo with React and Tailwind. <a href="https://github.com/praveenkumar3355/shopmedia1" target="_blank" rel="noopener">GitHub</a></p>
+        </div>
+        <div>
+          <h3>todo-vanilla</h3>
+          <p>Simple Todo app with localStorage and keyboard accessibility. <a href="https://github.com/praveenkumar3355/todo-vanilla" target="_blank" rel="noopener">GitHub</a></p>
+        </div>
+        <div>
+          <h3>data-viz-chartjs</h3>
+          <p>Data visualization demo using Chart.js. <a href="https://github.com/praveenkumar3355/data-viz-chartjs" target="_blank" rel="noopener">GitHub</a></p>
+        </div>
+        <div>
+          <h3>weather-cli</h3>
+          <p>Node CLI tool to fetch current weather (wttr.in). <a href="https://github.com/praveenkumar3355/weather-cli" target="_blank" rel="noopener">GitHub</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:1rem">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a> • GitHub: <a href="https://github.com/praveenkumar3355" target="_blank">@praveenkumar3355</a></p>
+    </section>
+  </main>
+
+  <footer>Built with HTML & CSS · Ready to customize for resume</footer>
+</body>
+</html>
